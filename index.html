@@ -38,7 +38,7 @@
 
     <a-scene
       vr-mode-ui="enabled: false;"
-      renderer="logarithmicDepthBuffer: true;"
+      renderer="logarithmicDepthBuffer: false;"
       embedded
       arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
       
@@ -53,7 +53,7 @@
         smoothCount="10"
         smoothTolerance=".01"
         smoothThreshold="5">
-            <a-plane src="#my-image" height="3" width="6" scale="50 50 50" position="50 200 0" rotate="-180 0 0"></a-plane>
+            <a-plane src="#my-image" height="3" width="6" scale="50 50 50" position="50 200 0"></a-plane>
       </a-nft>
       <!-- <a-entity camera></a-entity> -->
     </a-scene>
